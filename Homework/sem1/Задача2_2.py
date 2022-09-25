@@ -14,6 +14,6 @@ Bx = int(input('Введите координаты точки B по оси Х:
 By = int(input('Введите координаты точки B по оси Y: '))
 
 sum = (Bx-Ax)**2 + (By-Ay)**2
-print(round(math.sqrt(sum),2))
+print(f'Длина отрезка А-В = {round(math.sqrt(sum),2)}')
 
 
