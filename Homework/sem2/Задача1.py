@@ -17,4 +17,17 @@ for i in int_lst:
     sum = sum + i 
 
 print (sum)
+
+
+# Решение Кирилла
+# N = input('Введите число: ')
+# sum = 0
+# for i in N:
+#   if i.isdigit()
+#       sum += int(i)
+# print(sum)
+
+
+
+
     
