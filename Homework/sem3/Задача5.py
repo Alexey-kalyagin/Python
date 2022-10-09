@@ -9,10 +9,12 @@
 k = int(input('Введите число: '))
 
 def fib(n):
-    if n in [-k,-k+1]:
+    if n in [-k,-k-1]:
         return -1
     elif n in [0,1]:
         return 1
+    elif n in [-1,0]:
+        return 0
     else:
         return fib(n-1)+fib(n-2)
 
